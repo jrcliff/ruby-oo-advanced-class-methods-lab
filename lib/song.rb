@@ -8,7 +8,6 @@ class Song
 
   def save
     self.class.all << self
-    binding.pry
   end
 
   def self.create
@@ -59,17 +58,4 @@ class Song
   def self.destroy_all
     @@all.clear
   end
-
-
-
-
-
-
-
-
-
-  
-
-  
-
 end
